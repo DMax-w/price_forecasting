@@ -14,6 +14,10 @@ deps: venv
 	. ./.venv/bin/activate; \
 	pip install -r requirements.txt; \
 
+# Удаляет и устанавливает среду
+.PHONY: restart_venv
+restart_venv: del_deps deps
+
 
 # Запуск Jupyter Notebook
 .PHONY: run_jupyter

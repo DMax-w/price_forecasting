@@ -1,2 +1,3 @@
 kaggle
 jupyter
+py7zr
