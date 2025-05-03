@@ -1,3 +1,6 @@
 kaggle
 jupyter
 pandas
+matplotlib
+seaborn
+numpy
