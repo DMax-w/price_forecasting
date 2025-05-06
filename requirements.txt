@@ -8,3 +8,5 @@ statsmodels
 pyarrow
 scipy
 scikit-learn
+
+lightgbm
